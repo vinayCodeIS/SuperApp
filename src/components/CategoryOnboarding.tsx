@@ -3,6 +3,16 @@ import { motion, AnimatePresence } from "motion/react";
 import { Category } from "../types";
 import { AlertTriangle, X } from "lucide-react";
 
+import actionImg from "../assets/61e37c12c4dec726b2728f622e0515db4db88d29.png";
+import dramaImg from "../assets/352f43afa4708c73abc57d453cde278b09fb1186.png";
+import romanceImg from "../assets/9d537405d747debca63143d2755f3574107ddb23.png";
+import thrillerImg from "../assets/6843a8c4f1eeda63160b7168e1e2f52bbc62513e.png";
+import westernImg from "../assets/8b6ee1b7756c86e21bf5ba349baf91016ed9a8dc.png";
+import horrorImg from "../assets/f21ad522b6c878d8a633609d8450cfb98511cc89.png";
+import fantasyImg from "../assets/fd1997fb6a3afa2b07953f793022c6eae90ea3c9.png";
+import musicImg from "../assets/407d256f96a1a15bc0fe7621c72274bf0efc55f0.png";
+import fictionImg from "../assets/ab51ca628ce3412a242698db2503fd83abadde4c.png";
+
 // List of standard categories matching Page 2 Figma specifications exactly
 const CATEGORIES: Category[] = [
   { 
@@ -12,7 +22,7 @@ const CATEGORIES: Category[] = [
     emoji: "", 
     color: "#FF5209", 
     bgClass: "bg-[#FF5209]", 
-    image: "assets/61e37c12c4dec726b2728f622e0515db4db88d29.png" 
+    image: actionImg 
   },
   { 
     id: "drama", 
@@ -21,7 +31,7 @@ const CATEGORIES: Category[] = [
     emoji: "", 
     color: "#D7A4FF", 
     bgClass: "bg-[#D7A4FF]", 
-    image: "assets/352f43afa4708c73abc57d453cde278b09fb1186.png" 
+    image: dramaImg 
   },
   { 
     id: "romance", 
@@ -30,7 +40,7 @@ const CATEGORIES: Category[] = [
     emoji: "", 
     color: "#11B823", 
     bgClass: "bg-[#11B823]", 
-    image: "assets/9d537405d747debca63143d2755f3574107ddb23.png" 
+    image: romanceImg 
   },
   { 
     id: "thriller", 
@@ -39,7 +49,7 @@ const CATEGORIES: Category[] = [
     emoji: "", 
     color: "#84C2FF", 
     bgClass: "bg-[#84C2FF]", 
-    image: "assets/6843a8c4f1eeda63160b7168e1e2f52bbc62513e.png" 
+    image: thrillerImg 
   },
   { 
     id: "western", 
@@ -48,7 +58,7 @@ const CATEGORIES: Category[] = [
     emoji: "", 
     color: "#904117", 
     bgClass: "bg-[#904117]", 
-    image: "assets/8b6ee1b7756c86e21bf5ba349baf91016ed9a8dc.png" 
+    image: westernImg 
   },
   { 
     id: "horror", 
@@ -57,7 +67,7 @@ const CATEGORIES: Category[] = [
     emoji: "", 
     color: "#7358FF", 
     bgClass: "bg-[#7358FF]", 
-    image: "assets/f21ad522b6c878d8a633609d8450cfb98511cc89.png" 
+    image: horrorImg 
   },
   { 
     id: "fantasy", 
@@ -66,7 +76,7 @@ const CATEGORIES: Category[] = [
     emoji: "", 
     color: "#FF4ADE", 
     bgClass: "bg-[#FF4ADE]", 
-    image: "assets/fd1997fb6a3afa2b07953f793022c6eae90ea3c9.png" 
+    image: fantasyImg 
   },
   { 
     id: "music", 
@@ -75,7 +85,7 @@ const CATEGORIES: Category[] = [
     emoji: "", 
     color: "#E72C2C", 
     bgClass: "bg-[#E72C2C]", 
-    image: "assets/407d256f96a1a15bc0fe7621c72274bf0efc55f0.png" 
+    image: musicImg 
   },
   { 
     id: "fiction", 
@@ -84,7 +94,7 @@ const CATEGORIES: Category[] = [
     emoji: "", 
     color: "#6CD061", 
     bgClass: "bg-[#6CD061]", 
-    image: "assets/ab51ca628ce3412a242698db2503fd83abadde4c.png" 
+    image: fictionImg 
   },
 ];
 

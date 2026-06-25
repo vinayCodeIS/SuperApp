@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 import { User } from "../types";
-import assets from "../assets"
+
+
 
 interface RegistrationFormProps {
   onRegister: (user: User) => void;
@@ -70,7 +71,7 @@ export default function RegistrationForm({ onRegister, initialUser }: Registrati
         
         {/* Background Image of Live Concert / DJ Mixer Console */}
         <img 
-          src={assets["3bdbec6f74b004fdcf87b04992ba3c2faf4d5bf9.png"]} 
+          src="src\assets\3bdbec6f74b004fdcf87b04992ba3c2faf4d5bf9.png" 
           alt="Concert DJ Mixer" 
           className="absolute inset-0 w-full h-full object-cover opacity-80"
           referrerPolicy="no-referrer"

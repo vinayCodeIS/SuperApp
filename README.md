@@ -38,27 +38,3 @@ Tech Stack: Breakdown of React, Vite, Express proxy, Motion, and Google GenAI SD
 Local Setup Instructions: Step-by-step instructions on cloning, installing dependencies, configuring .env keys, and running development/production modes.
 GitHub Deployment Guide: Simple command-line instructions to initialize git, commit, link to a new GitHub repository, and push code online.
 Production Deployment Strategy: Guidance on hosting full-stack services like Render or Google Cloud Run.
-🐙 How to Deploy the Application to GitHub:
-Create a GitHub Repository:
-Go to GitHub and click New Repository.
-Enter a name (e.g. super-movie-app) and leave other settings default (do not add a README or .gitignore since your project already has them).
-Run these commands in your local project terminal:
-code
-Bash
-# Initialize your git repository
-git init
-
-# Track all current files
-git add .
-
-# Commit files
-git commit -m "feat: complete Super App movie discovery platform"
-
-# Name the branch main
-git branch -M main
-
-# Link your local folder to GitHub (replace with your repo URL)
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-
-# Push to your GitHub account
-git push -u origin main

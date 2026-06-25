@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-logo: "Single Day", "Kaushan Script", cursive;
+  --font-sans: "DM Sans", "Roboto", "Space Grotesk", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+/* Scrollbar styling matching the yellow notes card and other elements */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+  border: 4px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.45);
+  border: 4px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Custom logo font styling */
+.logo-font {
+  font-family: 'Single Day', cursive;
+}
+
+.roboto-font {
+  font-family: 'Roboto', ;
+}
+
+.dm-font {
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+
+.imageHeadline{
+  width: 695;
+  height: 143;
+  opacity: 1;
+  top: 853px; 
+  left: 62px;
+
+}
